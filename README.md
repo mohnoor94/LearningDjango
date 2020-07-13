@@ -1,4 +1,4 @@
-#My Django Learning Journey
+# My [Django](https://www.djangoproject.com/) Learning Journey
 I do learning-by-doing in this repo, and I make some violations on purpose like the weird project names just to make sure what is the sequence of the contents, so please do not judge me on this :)
 
 ## My Main Resources
