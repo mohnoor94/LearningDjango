@@ -3,7 +3,7 @@ I do learning-by-doing in this repo, and I make some violations on purpose like 
 
 ## My Main Resources
 I'm using multiple resources to study and apply what I learn here with examples. This is a list of **main** resources I use (_I will update this list whenever I use a new resource_):
-* [Django: Getting Started](https://app.pluralsight.com/library/courses/django-getting-started/)
+* [Django: Getting Started](https://app.pluralsight.com/library/courses/django-getting-started/) by [Reindert-Jan Ekker](https://app.pluralsight.com/profile/author/reindertjan-ekker), on [PluralSight.com](https://www.pluralsight.com/).
 
 ## Important Resources
 * [Django Commands](COMMANDS.md)
