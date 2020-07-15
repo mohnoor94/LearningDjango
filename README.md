@@ -6,6 +6,6 @@ I'm using multiple resources to study and apply what I learn here with examples.
 * [Django: Getting Started](https://app.pluralsight.com/library/courses/django-getting-started/) by [Reindert-Jan Ekker](https://app.pluralsight.com/profile/author/reindertjan-ekker), on [PluralSight.com](https://www.pluralsight.com/).
 
 ## Important Resources
-* [Django Commands](COMMANDS.md)
-* [Useful Links](LINKS.md)
-* [Useful {Model}.objects attributes](OBJECTS_METHODS.md)
+* [Django Commands](resources/COMMANDS.md)
+* [Useful Links](resources/LINKS.md)
+* [Useful {Model}.objects attributes](resources/OBJECTS_METHODS.md)
