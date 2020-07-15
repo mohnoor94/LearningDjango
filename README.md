@@ -8,3 +8,4 @@ I'm using multiple resources to study and apply what I learn here with examples.
 ## Important Resources
 * [Django Commands](COMMANDS.md)
 * [Useful Links](LINKS.md)
+* [Useful {Model}.objects attributes](OBJECTS_METHODS.md)
