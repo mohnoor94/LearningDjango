@@ -21,8 +21,10 @@ from meetings.views import detail
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', welcome),
+
+    # with named URLs you can safely update the URL without worrying about the templates!
+    path('', welcome, name='home'),
     path('time', time),
     path('about', about),
-    path('meetings/<int:id>', detail)
+    path('meetings/<int:id>', detail, name='detail')
 ]

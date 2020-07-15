@@ -16,7 +16,9 @@
 <ul>
     {% for meeting in meetings %}
     <li>
-        <a href="/meetings/{{meeting.id}}">
+        <!-- <a href="/meetings/{{meeting.id}}">-->
+        <!-- with named URLs you can safely update the URL without worrying about the templates!-->
+        <a href="{% url 'detail' meeting.id %}">
             {{meeting.title}}
         </a>
     </li>
