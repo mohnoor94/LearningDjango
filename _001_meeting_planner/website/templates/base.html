@@ -1,0 +1,15 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<!--    blocks will be filled by the files extend this base file!-->
+    <title>{% block title %}{% endblock %}</title>
+    <!--static could be used to include any static files: pictures, json, xml, javaScript, css, ...-->
+    <link rel="stylesheet" href="{% static 'website/style.css' %}">
+</head>
+<body>
+{%block content %}
+{% endblock %}
+</body>
+</html>
