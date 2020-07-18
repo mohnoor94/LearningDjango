@@ -1,6 +1,7 @@
-from django.forms import modelform_factory
+# from django.forms import modelform_factory
 from django.shortcuts import render, get_object_or_404, redirect
 
+from meetings.forms import MeetingForm
 from meetings.models import Meeting, Room
 
 
@@ -18,7 +19,7 @@ def rooms(request):
     })
 
 
-MeetingForm = modelform_factory(Meeting, exclude=[])  # Generate a MeetingForm class
+# MeetingForm = modelform_factory(Meeting, exclude=[])  # Generate a MeetingForm class
 
 
 def create(request):
